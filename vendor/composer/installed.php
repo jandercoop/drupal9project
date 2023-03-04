@@ -1,13 +1,13 @@
 <?php return array(
     'root' => array(
         'name' => 'drupal/legacy-project',
-        'pretty_version' => '9.5.4',
-        'version' => '9.5.4.0',
-        'reference' => '50f58a31d051d6f670d3988a8cd1d7d70eb3a96c',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '86623ff1c8028d7a493590a5b0b30ee12f238608',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'dev' => false,
+        'dev' => true,
     ),
     'versions' => array(
         'asm89/stack-cors' => array(
@@ -61,6 +61,15 @@
             'reference' => '1034e5e71f89978b80f9c1570e7226f6c3b9b6fb',
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/reflection',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'drupal/admin_toolbar' => array(
+            'pretty_version' => '3.3.0',
+            'version' => '3.3.0.0',
+            'reference' => '3.3.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/admin_toolbar',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -260,9 +269,9 @@
             ),
         ),
         'drupal/legacy-project' => array(
-            'pretty_version' => '9.5.4',
-            'version' => '9.5.4.0',
-            'reference' => '50f58a31d051d6f670d3988a8cd1d7d70eb3a96c',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '86623ff1c8028d7a493590a5b0b30ee12f238608',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
